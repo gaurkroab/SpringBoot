@@ -1,0 +1,9 @@
+
+#customer infomation
+cust: 
+   info: 
+     cno: 1001
+     cname: raja
+     cadd: hyd
+     billAmt: 8900.56
+     
