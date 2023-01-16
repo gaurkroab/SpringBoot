@@ -1,0 +1,37 @@
+#Employee information
+emp: 
+   info: 
+  #for simple properites
+     empNo: 1001
+     empName: raja
+     empAddrs: hyd
+# for array property
+     favColors: 
+              - red
+              - blue
+              - white
+ # for List property            
+   
+     nick-names: [raj1,mahraj1,king1]
+     nickNames: 
+             - raj
+             - mahraj
+             - king
+             
+ # for Set property
+     phoneNumbers: 
+             - 999999999
+             - 888888888
+             - 777777777
+  # for Map property   
+     idDetails: 
+          aadharNo: 34534553
+          voterId: 543535354
+          panNo: 5435435353
+  # for HAS-A property    
+     company: 
+         name: HCL Technologies
+         size: 100
+         addrs: hyd
+         pinCode: 500018
+
