@@ -1,0 +1,13 @@
+#jdbc properties
+ spring: 
+   datasource: 
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql:///gaurav
+      username: root
+      password: root
+      dbcp2: 
+         max-total: 100
+         initial-size: 10
+         max-conn-lifetime-millis: 100000
+      type: org.apache.commons.dbcp2.BasicDataSource
+

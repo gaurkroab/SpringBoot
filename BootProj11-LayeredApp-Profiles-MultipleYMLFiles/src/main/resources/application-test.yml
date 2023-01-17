@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    url: jdbc:mysql:///gaurav
+    type: com.mchange.v2.c3p0.ComboPooledDataSource
+    password: root
+c3P0:
+  maxSize: 100
+  minSize: 10

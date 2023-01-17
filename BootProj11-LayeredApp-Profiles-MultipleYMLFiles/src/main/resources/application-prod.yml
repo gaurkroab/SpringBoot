@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    hikari:
+      keepalive-time: 100000
+      maximum-pool-size: 100
+      minimum-idle: 10
+    username: system
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    password: manager
