@@ -26,4 +26,15 @@ public class EmployeeMgmtServiceImpl implements IEmployeeMgmtService {
 	public Optional<Employee> showEmployeeById(int id) {
 		return empRepo.findById(id);
 	}
+	
+	@Override
+	public List<Employee> searchEmployeeBySalaryRange(double start, double end) {
+		List<Employee> list = empRepo.findBySalaryBetween(start, end);
+		return list;
+	}
+	
+	@Override
+	public Employee searchByEmployeeName(String name) {
+		return empRepo.findByEname(name);
+	}
 }
