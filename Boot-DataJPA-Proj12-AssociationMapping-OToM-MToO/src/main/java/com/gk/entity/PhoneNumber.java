@@ -29,7 +29,7 @@ public class PhoneNumber implements Serializable {
 
 	@Id
 	@SequenceGenerator(name="gen1",sequenceName = "REG_NO_SEQ", initialValue = 1000,allocationSize = 1)
-	@GeneratedValue(generator = "get1", strategy = GenerationType.SEQUENCE)
+	@GeneratedValue(generator = "gen1", strategy = GenerationType.SEQUENCE)
 	private Integer regNo;
 	
 	@NonNull
